@@ -1,10 +1,30 @@
 {
-  "name": "playwright",
+  "name": "rebrowser-playwright",
   "version": "1.47.2",
-  "description": "A high-level API to automate web browsers",
+  "description": "A drop-in replacement for playwright patched with rebrowser-patches. It allows to pass modern automation detection tests.",
+  "keywords": [
+    "rebrowser",
+    "rebrowser-patches",
+    "automation",
+    "bot",
+    "bot-detection",
+    "captcha",
+    "scraping",
+    "web-scraping",
+    "playwright",
+    "chrome",
+    "headless",
+    "automation"
+  ],
+  "contributors": [
+    "Nick Webson <nwebson@rebrowser.net>"
+  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/microsoft/playwright.git"
+    "url": "git+https://github.com/rebrowser/rebrowser-playwright"
+  },
+  "bugs": {
+    "url": "https://github.com/rebrowser/rebrowser-patches/issues"
   },
   "homepage": "https://playwright.dev",
   "engines": {
@@ -58,7 +78,7 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
-    "playwright-core": "1.47.2"
+    "playwright-core": "npm:rebrowser-playwright-core@~1.47.2",
   },
   "optionalDependencies": {
     "fsevents": "2.3.2"
