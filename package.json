@@ -78,7 +78,7 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
-    "playwright-core": "npm:rebrowser-playwright-core@~1.47.2",
+    "playwright-core": "npm:rebrowser-playwright-core@~1.47.2"
   },
   "optionalDependencies": {
     "fsevents": "2.3.2"
