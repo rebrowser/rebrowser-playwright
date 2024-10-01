@@ -1,6 +1,6 @@
 {
   "name": "rebrowser-playwright",
-  "version": "1.47.2",
+  "version": "1.47.100",
   "description": "A drop-in replacement for playwright patched with rebrowser-patches. It allows to pass modern automation detection tests.",
   "keywords": [
     "rebrowser",
@@ -78,7 +78,7 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
-    "playwright-core": "npm:rebrowser-playwright-core@~1.47.2"
+    "playwright-core": "npm:rebrowser-playwright-core@~1.47.100"
   },
   "optionalDependencies": {
     "fsevents": "2.3.2"

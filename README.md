@@ -5,6 +5,8 @@
 >
 > 🪄 It's designed to be a drop-in replacement for the original `playwright` without changing your codebase. Each major and minor version of this repo matches the original repo, patch version could differ due to changes related to the patch itself.
 >
+> ☝️ Make sure to read: [How to Access Main Context Objects from Isolated Context](https://rebrowser.net/blog/how-to-access-main-context-objects-from-isolated-context-in-puppeteer-and-playwright-23741)
+>
 > 🐛 Please report any issues in the [`rebrowser-patches`](https://github.com/rebrowser/rebrowser-patches/issues) repo.
 
 # 🎭 Playwright
