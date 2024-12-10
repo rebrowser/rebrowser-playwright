@@ -1,3 +1,14 @@
+# rebrowser-playwright
+> ⚠️ This is the original [`playwright`](https://www.npmjs.com/package/playwright) patched with [`rebrowser-patches`](https://github.com/rebrowser/rebrowser-patches).
+>
+> 🕵️ The ultimate goal is to pass all automation detection tests presented in [`rebrowser-bot-detector`](https://github.com/rebrowser/rebrowser-bot-detector).
+>
+> 🪄 It's designed to be a drop-in replacement for the original `playwright` without changing your codebase. Each major and minor version of this repo matches the original repo, patch version could differ due to changes related to the patch itself.
+>
+> ☝️ Make sure to read: [Patches for Puppeteer and Playwright](https://rebrowser.net/docs/patches-for-puppeteer-and-playwright)
+>
+> 🐛 Please report any issues in the [`rebrowser-patches`](https://github.com/rebrowser/rebrowser-patches/issues) repo.
+
 # 🎭 Playwright
 
 [![npm version](https://img.shields.io/npm/v/playwright.svg)](https://www.npmjs.com/package/playwright) <!-- GEN:chromium-version-badge -->[![Chromium version](https://img.shields.io/badge/chromium-131.0.6778.33-blue.svg?logo=google-chrome)](https://www.chromium.org/Home)<!-- GEN:stop --> <!-- GEN:firefox-version-badge -->[![Firefox version](https://img.shields.io/badge/firefox-132.0-blue.svg?logo=firefoxbrowser)](https://www.mozilla.org/en-US/firefox/new/)<!-- GEN:stop --> <!-- GEN:webkit-version-badge -->[![WebKit version](https://img.shields.io/badge/webkit-18.2-blue.svg?logo=safari)](https://webkit.org/)<!-- GEN:stop --> [![Join Discord](https://img.shields.io/badge/join-discord-infomational)](https://aka.ms/playwright/discord)
