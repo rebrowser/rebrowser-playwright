@@ -15,8 +15,8 @@
  * limitations under the License.
  */
 
-import type { APIRequestContext, Browser, BrowserContext, BrowserContextOptions, Page, LaunchOptions, ViewportSize, Geolocation, HTTPCredentials, Locator, APIResponse, PageScreenshotOptions } from 'playwright-core';
-export * from 'playwright-core';
+import type { APIRequestContext, Browser, BrowserContext, BrowserContextOptions, Page, LaunchOptions, ViewportSize, Geolocation, HTTPCredentials, Locator, APIResponse, PageScreenshotOptions } from 'rebrowser-playwright-core';
+export * from 'rebrowser-playwright-core';
 
 export type BlobReporterOptions = { outputDir?: string, fileName?: string };
 export type DotReporterOptions = { omitTags?: boolean };
@@ -8054,7 +8054,7 @@ export interface PlaywrightTestOptions {
  * [fixtures.page](https://playwright.dev/docs/api/class-fixtures#fixtures-page).
  */
 export interface PlaywrightWorkerArgs {
-  playwright: typeof import('playwright-core');
+  playwright: typeof import('rebrowser-playwright-core');
   /**
    * [Browser](https://playwright.dev/docs/api/class-browser) instance is shared between all tests in the
    * [same worker](https://playwright.dev/docs/test-parallel) - this makes testing efficient. However, each test runs in an isolated
